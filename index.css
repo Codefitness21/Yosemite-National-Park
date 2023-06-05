@@ -1,0 +1,170 @@
+/*** GLOBAL STYLES ***/
+html,
+body {
+  width: 100%;
+  font-size: 62.5%;
+  font-family: Roboto Mono;
+  margin: 0px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+input {
+  font-size: 100%;
+}
+
+.centered {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #F9E7DC;
+  color: #ffffff;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 8px;
+  width: 8%;
+}
+
+a:hover {
+  color: #a52a2a;
+}
+
+.plan {
+  background-color: #FF764E;
+}
+
+.learn {
+  background-color: #5ED3EB;
+}
+
+.involve {
+  background-color: #FFCD69;
+}
+
+.header-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.header-info>img {
+  margin-top: 5rem;
+  border-radius: 50%;
+  width: 20%;
+}
+
+.text-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-info>p {
+  font-size: 20px;
+  text-align: center;
+  width: 70%;
+  margin-left: 1em;
+}
+
+.yosemite{
+  font-size: 50px;
+  font-family: Chelsea Market;
+  margin-bottom: 2rem;
+  color: #000000;
+}
+
+.intro-paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.intro-paragraph>p {
+  font-size: 30px;
+  background-color: #DDB9A3;
+  color: #ffffff;
+  padding: 1em;
+  width: 90%;
+}
+
+.body-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.body-image>img {
+  margin-top: 5rem;
+  width: 20%;
+}
+
+.body-image>p {
+  text-align: center;
+  font-size: 20px;
+  width: 30%;
+}
+
+.bottom-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.bottom-image>img {
+  width: 100vw;
+  height: 50vh;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #F9E7DC;
+}
+
+a {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
